@@ -1,0 +1,9 @@
+useReducer returns an array that holds the
+current state value and a dispatch function 
+to which you can pass an action and later 
+invoke it. While this is similar to the 
+pattern Redux uses, there are a few differences.
+For example, the useReducer function is 
+tightly coupled to a specific reducer.
+
+It is an extension to useState.
