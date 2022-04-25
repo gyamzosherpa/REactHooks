@@ -19,6 +19,11 @@ const UseEffect = () => {
       </Box>
       <Box sx={{ textAlign: 'center', margin: '10px' }}>
         <Button variant="contained" color="warning">
+          <Link to="/useEffect2">Axios useEffect Example</Link>
+        </Button>
+      </Box>
+      <Box sx={{ textAlign: 'center', margin: '10px' }}>
+        <Button variant="contained" color="warning">
           <Link to="/">Back to Home</Link>
         </Button>
       </Box>

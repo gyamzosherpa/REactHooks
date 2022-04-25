@@ -22,6 +22,12 @@ const Home = () => {
           <Link to="/useReducer">useReducer</Link>
         </Button>
       </Box>
+
+      <Box sx={{ textAlign: 'center', margin: '10px' }}>
+        <Button variant="contained" sx={{ backgroundColor: '#FFD93D' }}>
+          <Link to="/useContext">useContext</Link>
+        </Button>
+      </Box>
     </>
   );
 };
